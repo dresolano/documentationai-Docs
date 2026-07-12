@@ -150,5 +150,8 @@
         ]
       }
     ]
-  }
+  },
+  "logo-dark": "https://blob-cdn.documentation.ai/org-60d2585c-236a-4221-ab2a-508fe0646c00/doc-694ac49e-53e3-4c8e-a051-f39a6c0871e7/1783882238457-t9tootza00a-Icon-White.png?fm=auto&auto=compress%2Cformat",
+  "logo-light": "https://blob-cdn.documentation.ai/org-60d2585c-236a-4221-ab2a-508fe0646c00/doc-694ac49e-53e3-4c8e-a051-f39a6c0871e7/1783882248403-c9zj7hkrive-Icon-Color.png?fm=auto&auto=compress%2Cformat",
+  "favicon": "https://blob-cdn.documentation.ai/org-60d2585c-236a-4221-ab2a-508fe0646c00/doc-694ac49e-53e3-4c8e-a051-f39a6c0871e7/1783882248403-c9zj7hkrive-Icon-Color.png?fm=auto&auto=compress%2Cformat"
 }
