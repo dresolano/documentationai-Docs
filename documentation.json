@@ -1,5 +1,5 @@
 {
-  "name": "Starter Kit",
+  "name": "NoSavvy Help Center",
   "colors": {
     "light": {
       "brand": "#3B82F6",
@@ -15,141 +15,204 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
-        "icon": "book",
+        "tab": "Getting Started",
+        "icon": "home",
         "groups": [
           {
-            "group": "Start Here",
+            "group": "Welcome to NoSavvy",
+            "icon": "sparkles",
+            "pages": [
+              {
+                "title": "What is NoSavvy?",
+                "path": "getting-started/welcome"
+              },
+              {
+                "title": "User Roles and Permissions",
+                "path": "getting-started/roles-permissions"
+              }
+            ]
+          },
+          {
+            "group": "Setup Guide",
             "icon": "rocket",
             "pages": [
               {
-                "title": "Introduction",
-                "path": "introduction",
-                "icon": "home"
+                "title": "Setting Up Your Company Profile",
+                "path": "getting-started/company-setup"
               },
               {
-                "title": "Quickstart",
-                "path": "quickstart",
-                "icon": "zap"
+                "title": "Adding Your First Team Member",
+                "path": "getting-started/add-team-member"
               },
               {
-                "title": "Components",
-                "path": "components",
-                "icon": "code"
-              }
-            ]
-          },
-          {
-            "group": "Components",
-            "icon": "layers",
-            "pages": [
-              {
-                "title": "Images",
-                "path": "components/images",
-                "icon": "image"
+                "title": "Adding Your First Client",
+                "path": "getting-started/add-client"
               },
               {
-                "title": "Cards",
-                "path": "components/cards",
-                "icon": "square"
-              },
-              {
-                "title": "Code",
-                "path": "components/code",
-                "icon": "code"
-              },
-              {
-                "title": "Callouts",
-                "path": "components/callouts",
-                "icon": "message-square"
-              },
-              {
-                "title": "Steps",
-                "path": "components/steps",
-                "icon": "list-ordered"
-              },
-              {
-                "title": "Tabs",
-                "path": "components/tabs",
-                "icon": "columns"
+                "title": "Creating and Scheduling Your First Job",
+                "path": "getting-started/first-job"
               }
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
-        "icon": "code",
+        "tab": "Jobs",
+        "icon": "briefcase",
         "groups": [
           {
-            "group": "Overview",
+            "group": "Creating and Managing Jobs",
             "icon": "file-text",
             "pages": [
               {
-                "title": "Authentication",
-                "path": "authentication",
-                "icon": "lock"
+                "title": "How to Create a Job",
+                "path": "jobs/create-job"
+              },
+              {
+                "title": "Understanding Job Statuses",
+                "path": "jobs/job-statuses"
+              },
+              {
+                "title": "How to Edit or Update a Job",
+                "path": "jobs/edit-job"
+              },
+              {
+                "title": "Viewing Job Details",
+                "path": "jobs/job-details"
               }
             ]
           },
           {
-            "group": "Sample Endpoints",
-            "openapi": "openapi.yaml"
-          }
-        ]
-      },
-      {
-        "tab": "Help Center",
-        "icon": "help-circle",
-        "pages": [
-          {
-            "title": "Help Center",
-            "path": "help-center",
-            "icon": "home"
-          },
-          {
-            "group": "FAQs",
-            "icon": "help-circle",
-            "expandable": false,
+            "group": "Job Lists",
+            "icon": "list",
             "pages": [
               {
-                "title": "Documentation Source",
-                "path": "help-center/faq/getting-started"
+                "title": "Navigating the All Jobs List",
+                "path": "jobs/all-jobs-list"
+              },
+              {
+                "title": "Using My Assigned Jobs",
+                "path": "jobs/my-assigned-jobs"
               }
             ]
           },
           {
-            "group": "Troubleshooting",
-            "icon": "alert-triangle",
-            "expandable": false,
+            "group": "Scheduling",
+            "icon": "calendar",
             "pages": [
               {
-                "title": "Page Missing in Sidebar",
-                "path": "help-center/troubleshooting/install-error"
-              }
-            ]
-          },
-          {
-            "group": "Guides",
-            "icon": "book-open",
-            "expandable": false,
-            "pages": [
+                "title": "Using the Schedule Board",
+                "path": "jobs/schedule-board"
+              },
               {
-                "title": "Create Your First Page",
-                "path": "help-center/guides/setup-project"
+                "title": "Drag-and-Drop Scheduling",
+                "path": "jobs/drag-drop-scheduling"
               }
             ]
           }
         ]
       },
       {
-        "tab": "Changelog",
-        "icon": "clock",
-        "pages": [
+        "tab": "Clients & Team",
+        "icon": "users",
+        "groups": [
           {
-            "title": "Changelog",
-            "path": "changelog",
-            "icon": "history"
+            "group": "Client Management",
+            "icon": "user-plus",
+            "pages": [
+              {
+                "title": "How to Add a Client",
+                "path": "clients/add-client"
+              },
+              {
+                "title": "Editing Client Information",
+                "path": "clients/edit-client"
+              },
+              {
+                "title": "Viewing Client History",
+                "path": "clients/client-history"
+              }
+            ]
+          },
+          {
+            "group": "Team Management",
+            "icon": "user-cog",
+            "pages": [
+              {
+                "title": "Adding and Managing Team Members",
+                "path": "team/manage-team"
+              },
+              {
+                "title": "Assigning Jobs to Staff",
+                "path": "team/assign-jobs"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Forms & Reports",
+        "icon": "bar-chart-3",
+        "groups": [
+          {
+            "group": "Public Forms",
+            "icon": "send",
+            "pages": [
+              {
+                "title": "Pre-Visit Confirmation Forms",
+                "path": "forms/pre-visit-confirmation"
+              },
+              {
+                "title": "Post-Job Feedback Forms",
+                "path": "forms/post-job-feedback"
+              },
+              {
+                "title": "Sharing Forms with Clients",
+                "path": "forms/sharing-forms"
+              }
+            ]
+          },
+          {
+            "group": "Reports & Insights",
+            "icon": "trending-up",
+            "pages": [
+              {
+                "title": "Understanding the Reports Dashboard",
+                "path": "reports/dashboard"
+              },
+              {
+                "title": "Reading Your Performance Metrics",
+                "path": "reports/metrics"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Settings",
+        "icon": "settings",
+        "groups": [
+          {
+            "group": "Account Settings",
+            "icon": "sliders-horizontal",
+            "pages": [
+              {
+                "title": "Company Settings",
+                "path": "settings/company-settings"
+              },
+              {
+                "title": "Managing User Accounts",
+                "path": "settings/user-accounts"
+              },
+              {
+                "title": "Setting Up Recurring Jobs",
+                "path": "settings/recurring-jobs"
+              },
+              {
+                "title": "Configuring Email Notifications",
+                "path": "settings/email-notifications"
+              }
+            ]
           }
         ]
       }
