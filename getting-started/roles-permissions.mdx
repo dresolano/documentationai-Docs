@@ -1,0 +1,80 @@
+---
+title: User Roles and Permissions
+description: Understand what Owners, Managers, and Techs can see and do in NoSavvy, and learn how role assignment works across your company.
+---
+
+## Choose roles based on access, not job titles
+
+NoSavvy uses three roles to control what each team member can see and do: Owner, Manager, and Tech. Roles are assigned per company, so access always depends on which company the person is working in.
+
+## The three roles
+
+<Callout kind="info">
+
+A person can have different roles in different companies. For example, someone might be an Owner in one company and a Tech in another.
+
+</Callout>
+
+<Columns cols={3}>
+  <Card title="Owner" href="#what-each-role-can-do" icon="shield">
+    Full control of the company account. Owners can manage company settings, team members, all jobs and clients, reports, and role assignment. Owners are also the only people who can promote someone else to Owner.
+  </Card>
+  <Card title="Manager" href="#what-each-role-can-do" icon="settings">
+    Operational access for day-to-day work. Managers can create and edit jobs, manage clients, assign staff, and view reports. Managers cannot manage team members or edit company settings.
+  </Card>
+  <Card title="Tech" href="#tech-access-in-detail" icon="users">
+    Field access for assigned work. Techs can only see jobs assigned to them, update job status, add notes, and flag issues. Techs cannot access clients, team management, reports, or company settings.
+  </Card>
+</Columns>
+
+## What each role can do
+
+Use this table when deciding which role to assign. If someone needs access beyond assigned field work, they usually need Manager or Owner access.
+
+| Capability | Owner | Manager | Tech |
+| --- | --- | --- | --- |
+| Create and edit jobs | ✅ | ✅ | ❌ |
+| Delete jobs | ✅ | ❌ | ❌ |
+| View all jobs | ✅ | ✅ | ❌ — only assigned |
+| Update job status | ✅ | ✅ | ✅ |
+| Add notes and flag issues | ✅ | ✅ | ✅ |
+| Archive jobs | ✅ | ✅ | ❌ |
+| View job financials | ✅ | ✅ | ❌ |
+| Create, edit, and delete clients | ✅ | ✅ | ❌ |
+| View client records | ✅ | ✅ | ❌ |
+| Assign staff to jobs | ✅ | ✅ | ❌ |
+| Invite and manage team members | ✅ | ❌ | ❌ |
+| Edit company settings | ✅ | ❌ | ❌ |
+| View reports | ✅ | ✅ | ❌ |
+| Edit own profile | ✅ | ✅ | ✅ |
+
+## Role assignment rules
+
+Owners can assign any role: Owner, Manager, or Tech. Managers can invite Techs and other Managers, but they cannot grant the Owner role. Only an Owner can promote someone to Owner.
+
+## Tech access in detail
+
+<Callout kind="info">
+
+Techs see a simplified Triage dashboard with their next assigned job and today's assigned job count. They only see jobs assigned to them, and they can update job status, add notes, and flag issues on those jobs. Techs do not see job financial details, client records, reports, team management, or company settings.
+
+</Callout>
+
+Tech access is designed for field work. If a team member needs to manage clients, review reports, or work across all jobs, assign Manager or Owner instead.
+
+## Where to go next
+
+<Callout kind="tip">
+
+After you decide which roles your team needs, use the Setup Guide pages for adding team members and assigning roles.
+
+</Callout>
+
+<Columns cols={2}>
+  <Card title="Add team members" href="/getting-started" icon="plus">
+    Invite people to your company so they can access NoSavvy with the right role.
+  </Card>
+  <Card title="Assign roles" href="/getting-started" icon="edit">
+    Choose Owner, Manager, or Tech access based on what each person needs to do.
+  </Card>
+</Columns>
