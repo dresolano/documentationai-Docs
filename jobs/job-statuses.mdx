@@ -1,0 +1,66 @@
+---
+title: Understanding Job Statuses
+description: Track every job through its lifecycle from Scheduled to Archived, and learn how issue flagging works.
+---
+
+## Job statuses and the issue flag
+
+Track where each job is in its lifecycle and understand when an issue needs attention. Job statuses show the current stage of work, while the issue flag highlights jobs that may need follow-up or review.
+
+## The 5 job statuses
+
+Use these statuses to understand what stage a job is in and what happened to move it there.
+
+| Status | What It Means | When It Happens |
+| --- | --- | --- |
+| Scheduled | The job is planned and on the calendar. | Default status when a new job is created. |
+| Ready | The client has confirmed the appointment. | Set automatically when a client confirms via the pre-visit confirmation form. |
+| In Progress | Work has started on site. | Set automatically when the crew submits the on-site checklist. |
+| Completed | Work is finished. | Set manually by an Owner, Manager, or assigned Tech from the job detail page. |
+| Archived | The job is done and stored away. | Set manually by an Owner or Manager, only after a job is Completed. |
+
+## Status transitions
+
+Most jobs move through a standard flow: Scheduled → Ready → In Progress → Completed → Archived. This flow helps your team and clients understand where work stands at a glance.
+
+Not every job passes through every stage. A job can move from Scheduled directly to Completed, and the same is true from Ready or In Progress when the work is finished.
+
+Archived is the final status and can only be reached from Completed. The **Mark as Completed** action is only available when a job is in Scheduled, Ready, or In Progress.
+
+<Callout kind="info">
+
+### Who can change statuses
+
+- **Mark as Completed** — Requires permission to edit jobs or update job status. Owners, Managers, and assigned Techs can do this.
+- **Archive** — Requires permission to manage jobs. Only Owners and Managers can do this.
+- **Flag Issue or Resolve Issue** — Requires permission to edit jobs or update job status. Owners, Managers, and assigned Techs can do this.
+- **Change status via the edit form** — Requires permission to edit jobs. Only Owners and Managers can do this.
+
+</Callout>
+
+## The issue flag
+
+The issue flag is separate from the job status. A job can be Completed and still have an active issue flag if something needs follow-up.
+
+You can flag a job manually from the job detail page, and the system can also apply the flag automatically in specific situations. A job can be flagged in any status except Archived.
+
+When a job is flagged, an **Issue** badge appears next to the status badge in the jobs list and on the schedule board.
+
+<Callout kind="tip">
+
+### How feedback affects the issue flag
+
+- When a client rates the service as `Okay` or `Not good` in the post-job feedback form, the issue flag is set automatically, but only if the job is already Completed or Archived.
+- When a client rates the service as `Excellent` or `Good`, the issue flag is cleared automatically.
+- Marking a job as Completed always clears any existing issue flag.
+- When a client requests a reschedule through the pre-visit confirmation form, the issue flag is set and the job resets to Scheduled.
+
+</Callout>
+
+<Callout kind="tip">
+
+### Where to go next
+
+Use the [Edit Job](/jobs/edit-job) page to update job information and manage editable fields. Use [Job Details](/jobs/job-details) to review status, flag or resolve issues, and take action on an individual job.
+
+</Callout>

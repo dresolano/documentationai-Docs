@@ -1,0 +1,76 @@
+---
+title: Setting Up Recurring Jobs
+description: Automate daily, weekly, bi-weekly, or monthly jobs and keep recurring series in sync.
+---
+
+## Setting up recurring jobs
+
+Set up jobs that repeat automatically and manage the entire series from one place. Recurring jobs generate future occurrences up to 30 days ahead, so your schedule stays filled without manual entry.
+
+<Callout kind="info">
+
+You need the `create_job` permission to set up recurring jobs. Owners and Managers have this permission. Techs cannot create or edit jobs.
+
+</Callout>
+
+<Steps>
+  <Step title="Create or edit a job" title-type="p">
+
+  Open the job form by creating a new job or editing an existing one.
+
+  </Step>
+  <Step title="Turn on recurring" title-type="p">
+
+  Check the box labeled `Make this a recurring job.` The recurring options appear below.
+
+  </Step>
+  <Step title="Choose a frequency" title-type="p">
+
+  Select how often the job repeats: Daily, Weekly, Bi-Weekly, or Monthly.
+
+  </Step>
+  <Step title="Select days of the week" title-type="p">
+
+  For Weekly or Bi-Weekly, check the days the job should repeat on Monday through Sunday. You can select any combination. Skip this step for Daily or Monthly.
+
+  </Step>
+  <Step title="Set the first job date" title-type="p">
+
+  The date on the form is the first occurrence. NoSavvy uses this date as the starting point for generating future jobs.
+
+  </Step>
+  <Step title="Save" title-type="p">
+
+  Click Save. Future jobs generate automatically up to 30 days ahead based on the frequency and days you selected.
+
+  </Step>
+</Steps>
+
+## How recurring jobs work
+
+The first job in the series is the parent. Future jobs generated from that parent are children.
+
+Children inherit the job title, client, company, assigned team members, scheduled time, job duration, job description, and notes from the parent. This keeps the series consistent as new jobs are created.
+
+Each child gets its own scheduled date based on the recurring frequency. Every child is created with a status of Scheduled.
+
+<Callout kind="info">
+
+Editing a recurring parent syncs future non-completed children. The title, client, team, time, duration, description, and notes update across the series. The scheduled date and status of existing children are never changed.
+
+</Callout>
+
+<Callout kind="alert">
+
+Turning off recurring on a parent trashes all future non-completed children. Children that are already completed are preserved.
+
+</Callout>
+
+<Callout kind="tip">
+
+**Where to go next**
+
+- [Create a job](/jobs/create-job)
+- [Edit or update a job](/jobs/edit-job)
+
+</Callout>

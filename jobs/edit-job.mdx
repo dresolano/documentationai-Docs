@@ -1,0 +1,81 @@
+---
+title: How to Edit or Update a Job
+description: Update job details, manage recurring job series, and use quick actions to keep jobs moving.
+---
+
+## Editing a job
+
+Edit any job field, update recurring job series, and use quick actions from the job detail page to keep work moving. The edit form loads the job's current details so you can make changes without starting over.
+
+## Prerequisites
+
+<Callout kind="info">
+
+You need permission to edit jobs. Owners and Managers can edit job details. Techs cannot edit job details.
+
+</Callout>
+
+## Editing a job
+
+<Steps>
+  <Step title="Navigate to the job" title-type="p">
+
+  Open the job from the jobs list or the schedule board, then click **Edit**. You can also open the job detail page and click **Edit** there.
+
+  </Step>
+  <Step title="Update any field" title-type="p">
+
+  The edit form uses the same layout as the create form, but every field is pre-populated with the job's current values. Update any field you need, including the title, description, client, team members, date, time, duration, recurring settings, status, or notes.
+
+  The status dropdown includes **Scheduled**, **Ready**, **In Progress**, and **Completed**. **Archived** does not appear in the edit form. If you need to archive a job, use the **Archive** quick action from the [job detail page](/jobs/job-details).
+
+  </Step>
+  <Step title="Save changes" title-type="p">
+
+  Click **Save Changes**. You will see a success message, then NoSavvy returns you to the job detail page.
+
+  </Step>
+</Steps>
+
+## Quick actions
+
+In addition to editing the form, you can take quick actions directly from the job detail page.
+
+- **Mark Completed** — Available when a job is **Scheduled**, **Ready**, or **In Progress**. Requires edit or update status permission. Owners, Managers, and assigned Techs can use this.
+- **Flag Issue** — Mark a job as needing attention. Available on any job that does not already have an issue flag and is not **Archived**. Requires edit or update status permission.
+- **Resolve Issue** — Clear the issue flag from a job. Available only when a job currently has an issue flag. Requires edit or update status permission.
+- **Archive** — Move a completed job out of active views. Only available on **Completed** jobs. Requires manage jobs permission. Owners and Managers can use this.
+- **Edit** — Open the edit form. Requires edit permission. Owners and Managers can use this.
+- **Delete** — Permanently remove a job. Requires delete permission. Only Owners can delete jobs.
+
+## Editing a recurring job
+
+When you edit a recurring parent job, NoSavvy syncs selected changes to all future child jobs that are not yet completed. This keeps the series aligned without changing work that has already been finished.
+
+NoSavvy automatically syncs these fields from the parent job: job title, client, assigned team members, scheduled time, duration, description, and notes.
+
+<Callout kind="info">
+
+The scheduled date and status of child jobs never change when you edit the parent. Each child keeps its own date and tracks its own status through the full job lifecycle.
+
+</Callout>
+
+<Callout kind="alert">
+
+Turning off recurring on a parent job trashes all future non-completed children. Already completed children stay in place.
+
+</Callout>
+
+<Callout kind="tip">
+
+For full setup details and recurring behavior, see [Recurring Jobs](/settings/recurring-jobs).
+
+</Callout>
+
+<Callout kind="tip">
+
+**Where to go next**
+
+Review [job statuses](/jobs/job-statuses) to understand how jobs move through each stage, or open [Recurring Jobs](/settings/recurring-jobs) for full recurring setup and series behavior.
+
+</Callout>

@@ -1,0 +1,78 @@
+---
+title: Viewing Job Details
+description: Find everything about a job in one place — description, schedule, team, financials, client info, and activity history.
+---
+
+## The job detail page
+
+See a complete picture of any job from a single page. The job detail page brings together the job summary, schedule, team assignment, client information, forms, feedback, and activity history so you can review progress and take action without switching views.
+
+## Page layout
+
+The job detail page is organized into three parts: a header, a main column, and a sidebar. On mobile, the same information stays available with quick actions tailored for field use.
+
+## Header actions
+
+The header shows the job title, status badge, issue badge when the job has an open issue, and the job ID. Action buttons appear based on your role and the job's current status.
+
+- **Mark Completed** — Available when the job is **Scheduled**, **Ready**, or **In Progress**. Owners, Managers, and assigned Techs can use this.
+- **Resolve Issue** — Available when the job has an open issue flag. Owners, Managers, and assigned Techs can use this.
+- **Flag Issue** — Available when the job does not have an issue flag and is not **Archived**. Owners, Managers, and assigned Techs can use this.
+- **Archive** — Available only on **Completed** jobs. Owners and Managers can use this.
+- **Edit** — Opens the edit form. Owners and Managers can use this.
+- **Delete** — Permanently removes the job. Only Owners can delete jobs.
+
+<Callout kind="info">
+
+Permission details depend on your role. See [User Roles and Permissions](/getting-started/roles-permissions) for the full capability matrix.
+
+</Callout>
+
+## Main column
+
+The main column holds the job record itself, including notes, forms, feedback, and history.
+
+**Job details** shows the job description and notes. This section appears only when at least one of those fields has content.
+
+**Form links** always appears and includes three forms: Pre-Visit Confirmation, Crew Checklist, and Post-Job Feedback. Each form includes **Copy Link** to copy the form URL to your clipboard and **Open Form** to open the form in a new tab. The links use signed access tokens so only people with the link can open the form. See [Sharing Forms with Clients](/forms/sharing-forms) for details.
+
+**Client feedback** appears when a client submits post-job feedback. Each feedback card shows the rating, star score, comment, date received, and whether the client wants follow-up. If a job is completed and feedback has not been submitted yet, the page shows a **Pending** placeholder.
+
+**Activity timeline** records every change made to the job. Each entry shows the date, who made the change, and what happened. You can also add notes from the timeline with **Add Note**, and if the job is not already flagged and not archived, you can mark the note as an issue at the same time.
+
+## Sidebar
+
+The sidebar keeps the job's schedule, financial summary, and client contact details easy to scan while you review the rest of the page.
+
+**Schedule and team** shows the job date, time, duration window when one is set, and the assigned team members with their roles. If details are still being finalized, the page can show **TBD**, **Anytime**, or **Unassigned** where needed.
+
+**Job value** shows line items, payment status, and the total job value.
+
+<Callout kind="info">
+
+The Job Value card is visible to Owners and Managers only.
+
+</Callout>
+
+Owners and Managers may also see an **Edit Value** link when they can update job pricing.
+
+**Client details** shows the client name as a clickable link to the client history page, plus the client's email address, phone number, and a directions link to the service location when an address is available.
+
+## Mobile actions
+
+<Callout kind="tip">
+
+On mobile, a field bar appears with three quick actions: **Navigate** opens directions to the service location in your maps app, **Call Client** dials the client's phone number, and **Open Checklist** opens the crew checklist form. A sticky action bar at the bottom of the screen also shows the most relevant status action: **Mark Completed**, **Resolve Issue**, or **Flag Issue**.
+
+</Callout>
+
+## Where to go next
+
+<Columns cols={2}>
+  <Card title="View all jobs" href="/jobs/all-jobs-list" icon="folder">
+    Open the full jobs list to find, filter, and manage all scheduled and completed work.
+  </Card>
+  <Card title="Share forms with clients" href="/forms/sharing-forms" icon="external-link">
+    Learn how form links work, who can use them, and how to send them securely.
+  </Card>
+</Columns>

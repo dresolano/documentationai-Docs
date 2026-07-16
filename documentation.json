@@ -15,204 +15,240 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Getting Started",
-        "icon": "home",
+        "tab": "Guides",
+        "icon": "book-open",
         "groups": [
           {
-            "group": "Welcome to NoSavvy",
-            "icon": "sparkles",
+            "group": "Getting Started",
+            "icon": "home",
             "pages": [
               {
-                "title": "What is NoSavvy?",
-                "path": "getting-started/welcome"
+                "group": "Welcome to NoSavvy",
+                "icon": "sparkles",
+                "pages": [
+                  {
+                    "title": "What is NoSavvy?",
+                    "path": "getting-started/welcome"
+                  },
+                  {
+                    "title": "User Roles and Permissions",
+                    "path": "getting-started/roles-permissions"
+                  }
+                ]
               },
               {
-                "title": "User Roles and Permissions",
-                "path": "getting-started/roles-permissions"
+                "group": "Setup Guide",
+                "icon": "rocket",
+                "pages": [
+                  {
+                    "title": "Setting Up Your Company Profile",
+                    "path": "getting-started/company-setup"
+                  },
+                  {
+                    "title": "Adding Your First Team Member",
+                    "path": "getting-started/add-team-member"
+                  },
+                  {
+                    "title": "Adding Your First Client",
+                    "path": "getting-started/add-client"
+                  },
+                  {
+                    "title": "Creating and Scheduling Your First Job",
+                    "path": "getting-started/first-job"
+                  }
+                ]
               }
             ]
           },
           {
-            "group": "Setup Guide",
-            "icon": "rocket",
+            "group": "Jobs",
+            "icon": "briefcase",
             "pages": [
               {
-                "title": "Setting Up Your Company Profile",
-                "path": "getting-started/company-setup"
+                "group": "Creating and Managing Jobs",
+                "icon": "file-text",
+                "pages": [
+                  {
+                    "title": "How to Create a Job",
+                    "path": "jobs/create-job"
+                  },
+                  {
+                    "title": "Understanding Job Statuses",
+                    "path": "jobs/job-statuses"
+                  },
+                  {
+                    "title": "How to Edit or Update a Job",
+                    "path": "jobs/edit-job"
+                  },
+                  {
+                    "title": "Viewing Job Details",
+                    "path": "jobs/job-details"
+                  }
+                ]
               },
               {
-                "title": "Adding Your First Team Member",
-                "path": "getting-started/add-team-member"
+                "group": "Job Lists",
+                "icon": "list",
+                "pages": [
+                  {
+                    "title": "Navigating the All Jobs List",
+                    "path": "jobs/all-jobs-list"
+                  },
+                  {
+                    "title": "Using My Assigned Jobs",
+                    "path": "jobs/my-assigned-jobs"
+                  }
+                ]
               },
               {
-                "title": "Adding Your First Client",
-                "path": "getting-started/add-client"
+                "group": "Scheduling",
+                "icon": "calendar",
+                "pages": [
+                  {
+                    "title": "Using the Schedule Board",
+                    "path": "jobs/schedule-board"
+                  },
+                  {
+                    "title": "Drag-and-Drop Scheduling",
+                    "path": "jobs/drag-drop-scheduling"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Clients & Team",
+            "icon": "users",
+            "pages": [
+              {
+                "group": "Client Management",
+                "icon": "user-plus",
+                "pages": [
+                  {
+                    "title": "How to Add a Client",
+                    "path": "clients/add-client"
+                  },
+                  {
+                    "title": "Editing Client Information",
+                    "path": "clients/edit-client"
+                  },
+                  {
+                    "title": "Viewing Client History",
+                    "path": "clients/client-history"
+                  }
+                ]
               },
               {
-                "title": "Creating and Scheduling Your First Job",
-                "path": "getting-started/first-job"
+                "group": "Team Management",
+                "icon": "user-cog",
+                "pages": [
+                  {
+                    "title": "Adding and Managing Team Members",
+                    "path": "team/manage-team"
+                  },
+                  {
+                    "title": "Assigning Jobs to Staff",
+                    "path": "team/assign-jobs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Forms & Reports",
+            "icon": "bar-chart-3",
+            "pages": [
+              {
+                "group": "Public Forms",
+                "icon": "send",
+                "pages": [
+                  {
+                    "title": "Pre-Visit Confirmation Forms",
+                    "path": "forms/pre-visit-confirmation"
+                  },
+                  {
+                    "title": "Post-Job Feedback Forms",
+                    "path": "forms/post-job-feedback"
+                  },
+                  {
+                    "title": "Sharing Forms with Clients",
+                    "path": "forms/sharing-forms"
+                  }
+                ]
+              },
+              {
+                "group": "Reports & Insights",
+                "icon": "trending-up",
+                "pages": [
+                  {
+                    "title": "Understanding the Reports Dashboard",
+                    "path": "reports/dashboard"
+                  },
+                  {
+                    "title": "Reading Your Performance Metrics",
+                    "path": "reports/metrics"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Settings",
+            "icon": "settings",
+            "pages": [
+              {
+                "group": "Account Settings",
+                "icon": "sliders-horizontal",
+                "pages": [
+                  {
+                    "title": "Company Settings",
+                    "path": "settings/company-settings"
+                  },
+                  {
+                    "title": "Managing User Accounts",
+                    "path": "settings/user-accounts"
+                  },
+                  {
+                    "title": "Setting Up Recurring Jobs",
+                    "path": "settings/recurring-jobs"
+                  },
+                  {
+                    "title": "Configuring Email Notifications",
+                    "path": "settings/email-notifications"
+                  }
+                ]
               }
             ]
           }
         ]
       },
       {
-        "tab": "Jobs",
-        "icon": "briefcase",
-        "groups": [
+        "tab": "Changelog",
+        "icon": "git-branch",
+        "pages": [
           {
-            "group": "Creating and Managing Jobs",
-            "icon": "file-text",
-            "pages": [
-              {
-                "title": "How to Create a Job",
-                "path": "jobs/create-job"
-              },
-              {
-                "title": "Understanding Job Statuses",
-                "path": "jobs/job-statuses"
-              },
-              {
-                "title": "How to Edit or Update a Job",
-                "path": "jobs/edit-job"
-              },
-              {
-                "title": "Viewing Job Details",
-                "path": "jobs/job-details"
-              }
-            ]
-          },
-          {
-            "group": "Job Lists",
-            "icon": "list",
-            "pages": [
-              {
-                "title": "Navigating the All Jobs List",
-                "path": "jobs/all-jobs-list"
-              },
-              {
-                "title": "Using My Assigned Jobs",
-                "path": "jobs/my-assigned-jobs"
-              }
-            ]
-          },
-          {
-            "group": "Scheduling",
-            "icon": "calendar",
-            "pages": [
-              {
-                "title": "Using the Schedule Board",
-                "path": "jobs/schedule-board"
-              },
-              {
-                "title": "Drag-and-Drop Scheduling",
-                "path": "jobs/drag-drop-scheduling"
-              }
-            ]
+            "title": "Changelog",
+            "path": "changelog"
           }
         ]
       },
       {
-        "tab": "Clients & Team",
-        "icon": "users",
-        "groups": [
+        "tab": "Roadmap",
+        "icon": "map",
+        "pages": [
           {
-            "group": "Client Management",
-            "icon": "user-plus",
-            "pages": [
-              {
-                "title": "How to Add a Client",
-                "path": "clients/add-client"
-              },
-              {
-                "title": "Editing Client Information",
-                "path": "clients/edit-client"
-              },
-              {
-                "title": "Viewing Client History",
-                "path": "clients/client-history"
-              }
-            ]
-          },
-          {
-            "group": "Team Management",
-            "icon": "user-cog",
-            "pages": [
-              {
-                "title": "Adding and Managing Team Members",
-                "path": "team/manage-team"
-              },
-              {
-                "title": "Assigning Jobs to Staff",
-                "path": "team/assign-jobs"
-              }
-            ]
+            "title": "Roadmap",
+            "path": "roadmap"
           }
         ]
       },
       {
-        "tab": "Forms & Reports",
-        "icon": "bar-chart-3",
-        "groups": [
+        "tab": "Help Center",
+        "icon": "life-buoy",
+        "pages": [
           {
-            "group": "Public Forms",
-            "icon": "send",
-            "pages": [
-              {
-                "title": "Pre-Visit Confirmation Forms",
-                "path": "forms/pre-visit-confirmation"
-              },
-              {
-                "title": "Post-Job Feedback Forms",
-                "path": "forms/post-job-feedback"
-              },
-              {
-                "title": "Sharing Forms with Clients",
-                "path": "forms/sharing-forms"
-              }
-            ]
-          },
-          {
-            "group": "Reports & Insights",
-            "icon": "trending-up",
-            "pages": [
-              {
-                "title": "Understanding the Reports Dashboard",
-                "path": "reports/dashboard"
-              },
-              {
-                "title": "Reading Your Performance Metrics",
-                "path": "reports/metrics"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Settings",
-        "icon": "settings",
-        "groups": [
-          {
-            "group": "Account Settings",
-            "icon": "sliders-horizontal",
-            "pages": [
-              {
-                "title": "Company Settings",
-                "path": "settings/company-settings"
-              },
-              {
-                "title": "Managing User Accounts",
-                "path": "settings/user-accounts"
-              },
-              {
-                "title": "Setting Up Recurring Jobs",
-                "path": "settings/recurring-jobs"
-              },
-              {
-                "title": "Configuring Email Notifications",
-                "path": "settings/email-notifications"
-              }
-            ]
+            "title": "Help Center",
+            "path": "help/contact-us"
           }
         ]
       }

@@ -1,0 +1,169 @@
+---
+title: Adding and Managing Team Members
+description: Invite, edit, and manage your team — roles, profiles, and what each member can do.
+---
+
+## Manage your team
+
+Build and manage your team from one place. Owners can invite people, assign the right role, update profile details, and remove someone from the company when needed.
+
+<Callout kind="info">
+
+Team management is available to **Owners only**. Owners can open the Team page at `/team/`. Managers and Techs cannot access the Team page.
+
+</Callout>
+
+## The Team page
+
+Use the Team page at `/team/` to see everyone in your company and manage their access. Each row shows one team member and gives you quick actions for updating or removing them.
+
+The table includes five columns:
+
+| Column | What it shows |
+| --- | --- |
+| **Name** | The team member's full name |
+| **Email** | The team member's email address |
+| **Role** | A badge showing **Owner**, **Manager**, or **Tech** |
+| **Active Jobs** | A colored status dot and a count showing how many active jobs that person has |
+| **Actions** | **Edit** and **Remove** actions for that member |
+
+The **Active Jobs** column helps you see workload at a glance. The colored dot shows whether the member currently has active work, and the count shows how many active jobs are assigned to them.
+
+## Inviting a team member
+
+Add new people from the Team page. You choose their role during the invite, and NoSavvy handles the rest.
+
+<Steps>
+<Step title="Open the Team page" icon="users" title-type="p">
+
+Go to `/team/` and click **Add Team Member**.
+
+</Step>
+
+<Step title="Enter their name and email" icon="edit" title-type="p">
+
+Enter the person's **full name** and **email address**. Both fields are required.
+
+</Step>
+
+<Step title="Choose a role" icon="shield" title-type="p">
+
+Select one of the role cards. **Tech** is selected by default.
+
+- **Tech** — Field technician. Can view assigned jobs and complete checklists.
+- **Manager** — Can create jobs, manage clients, and view reports. Cannot edit company settings.
+- **Owner** — Full access to everything, including team management.
+
+</Step>
+
+<Step title="Send the invitation" icon="arrow-right" title-type="p">
+
+Click **Send Invitation**. A success message appears, then you return to the Team page.
+
+</Step>
+</Steps>
+
+<Callout kind="info">
+
+What happens next depends on whether the email already belongs to a NoSavvy account. If the person is new to NoSavvy, an account is created and they receive an invitation email with a link to set their password. That link stays valid for 24 hours.
+
+If the person already has a NoSavvy account through another company, they receive a notification that they have been added to your company. They can sign in and switch to your company right away.
+
+</Callout>
+
+<Callout kind="info">
+
+Owners can assign any role: **Tech**, **Manager**, or **Owner**. Only an Owner can promote someone to **Owner**.
+
+</Callout>
+
+## Editing a team member
+
+Update a team member when their contact details, notes, or responsibilities change. You can also change their role from the edit screen.
+
+<Steps>
+<Step title="Open the member record" icon="users" title-type="p">
+
+On the Team page, click **Edit** next to the person you want to update.
+
+</Step>
+
+<Step title="Update their details" icon="edit" title-type="p">
+
+Change any of these fields as needed:
+
+- **Full Name**
+- **Phone Number**
+- **Bio or Notes**
+- **Role**
+
+</Step>
+
+<Step title="Confirm email changes" icon="mail" title-type="p">
+
+If you change the email address, NoSavvy starts a two-step confirmation process.
+
+- A confirmation email goes to the **new** address.
+- The confirmation link stays valid for 24 hours.
+- A separate notification goes to the **old** address.
+- The email does not change until the person confirms it from the new address.
+
+</Step>
+
+<Step title="Save changes" icon="check-circle" title-type="p">
+
+Click **Save Changes** to apply the update.
+
+</Step>
+</Steps>
+
+<Callout kind="info">
+
+If you try to edit your own team member record, NoSavvy sends you to `/my-profile/` instead. Your own email and role are managed through your profile and Owner permissions.
+
+</Callout>
+
+## Removing a member
+
+Remove someone from your company from the Team page. Click **Remove** next to their name, then confirm the dialog to finish the action.
+
+Removing a member only removes their access to your company. The person keeps their NoSavvy account and any memberships they have in other companies.
+
+You cannot remove yourself. The **Remove** button does not appear next to your own name, and self-removal is blocked.
+
+## My Profile
+
+Every user can manage their own profile at `/my-profile/`. This page is for personal details, not team-level permission changes.
+
+Users can:
+
+- Upload an avatar in **JPG** or **PNG** format
+- Use an image up to **2 MB**
+- Update their **name**
+- Update their **phone number**
+- Update their **bio or notes**
+
+If no avatar is uploaded, NoSavvy shows the person's initials instead.
+
+Email and role are read-only on **My Profile**. An Owner must change a team member's role, and email changes are controlled from the team management flow.
+
+<Callout kind="tip">
+
+Use these pages next if you need to assign work or review role access.
+
+<Columns cols={2}>
+<Card
+  title="Assign jobs"
+  href="/team/assign-jobs"
+  icon="users"
+  cta="Open guide"
+/>
+<Card
+  title="Roles and permissions"
+  href="/getting-started/roles-permissions"
+  icon="shield"
+  cta="Review roles"
+/>
+</Columns>
+
+</Callout>
