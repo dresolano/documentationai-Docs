@@ -238,7 +238,8 @@
         "pages": [
           {
             "title": "Roadmap",
-            "path": "roadmap"
+            "path": "roadmap",
+            "content-width": "wide"
           }
         ]
       },
