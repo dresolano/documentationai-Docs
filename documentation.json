@@ -239,7 +239,12 @@
           {
             "title": "Roadmap",
             "path": "roadmap",
-            "content-width": "wide"
+            "content-width": "wide",
+            "show-sidebar": false,
+            "show-toc": false,
+            "show-parent-label": false,
+            "show-page-navigation": false,
+            "ask-feedback": false
           }
         ]
       },
