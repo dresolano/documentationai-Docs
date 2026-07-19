@@ -4,7 +4,33 @@ description: >-
   Track what's new in NoSavvy — features, improvements, and fixes with every
   release.
 ---
+<Update label="July 2026" description="Version 1.3.0">
+  **Features**
 
+  - Commercial and residential account types for clients — tag clients as commercial or residential with dynamic form fields, badges, and list filters. See [Adding a Client](/clients/add-client) and [Editing Client Information](/clients/edit-client).
+  - Flag Issue button on job detail pages — flag problems with optional context notes; owners and managers are notified immediately. See [Viewing Job Details](/jobs/job-details).
+  - Demo workspace for platform admins — a pre-seeded sample workspace for training, demos, and screenshots, with a one-click reset tool.
+  - Interactive company switcher in the sidebar — switch between companies instantly without a full page reload.
+  - Account type filter on the reports dashboard — scope revenue and performance charts by commercial or residential clients. See [Reports Dashboard](/reports/dashboard).
+
+  **Improvements**
+
+  - All transactional emails (invitations, notifications, issue alerts) now use the branded HTML template with proper sender addresses.
+  - Pre-visit and feedback forms automatically adjust their wording based on whether the client is commercial or residential. See [Pre-Visit Confirmation Forms](/forms/pre-visit-confirmation) and [Post-Job Feedback Forms](/forms/post-job-feedback).
+  - Updated terminology throughout the app — "customers" is now "clients" everywhere, with copy tailored to cleaning businesses.
+  - Password reset flow improved — cleaner redirect, branded email, and a stronger 10-character minimum.
+  - Unified role badges (Owner / Manager / Tech) across the sidebar, team list, and profile pages. See [User Roles and Permissions](/getting-started/roles-permissions).
+  - Faster team management page for companies with many staff members. See [Managing Team Members](/team/manage-team).
+  - Redesigned login, signup, and password reset pages.
+  - Signup rate limiting added to prevent automated abuse.
+
+  **Fixes**
+
+  - Fixed short-duration jobs clipping their title and time text on the schedule board. See [Schedule Board](/jobs/schedule-board).
+  - Fixed company names showing HTML entities (e.g. `&#8217;`) in email subject lines.
+  - Fixed the home page greeting sometimes showing an email prefix instead of the user's first name.
+  - Fixed the jobs list showing a blank error when no company is selected — it now redirects to the home page.
+</Update>
 
 <Update label="October 2024" description="Version 1.2.0">
   **Features**
