@@ -4,7 +4,7 @@ description: >-
   Track what's new in NoSavvy — features, improvements, and fixes with every
   release.
 ---
-<Update label="July 2026" description="Version 1.3.0">
+<Update label="July 19, 2026" description="Version 1.3.0">
   **Features**
 
   - Commercial and residential account types for clients — tag clients as commercial or residential with dynamic form fields, badges, and list filters. See [Adding a Client](/clients/add-client) and [Editing Client Information](/clients/edit-client).
@@ -32,40 +32,42 @@ description: >-
   - Fixed the jobs list showing a blank error when no company is selected — it now redirects to the home page.
 </Update>
 
-<Update label="October 2024" description="Version 1.2.0">
+<Update label="July 14, 2026" description="Version 1.2.0">
   **Features**
 
-  - New schedule board with drag-and-drop scheduling
-  - Recurring jobs with weekly and bi-weekly options
-  - Client feedback forms with automatic issue flagging
+  - Platform admin home page with an instructional card when no tenant is selected — explains how to use the Demo workspace and company switcher.
 
   **Improvements**
 
-  - Faster job list filtering
-  - Improved mobile job detail actions
+  - Platform admins now land in the Demo workspace by default on login instead of an arbitrary tenant.
+  - Email sender addresses now use the site's own domain for better deliverability.
+  - Public form submissions are validated before being stored, preventing incomplete or invalid entries.
+  - New signups load directly into the company workspace without an extra redirect.
 
   **Fixes**
 
-  - Fixed date picker not loading on certain browsers
+  - Fixed platform admins getting stuck in a support view for a company they're no longer a member of.
 </Update>
 
-<Update label="August 2024" description="Version 1.1.0">
+<Update label="July 12, 2026" description="Version 1.1.0">
   **Features**
 
-  - Pre-visit confirmation forms for appointment scheduling
-  - Post-job feedback forms with rating-based issue flagging
+  - Sidebar navigation with links to Home, Schedule, Jobs, Clients, Team, Reports, and Settings.
+  - Job creation, editing, and detail pages with full status lifecycle (Scheduled → Ready → In Progress → Completed → Archived), line items, and recurring schedule options. See [How to Create a Job](/jobs/create-job), [How to Edit or Update a Job](/jobs/edit-job), and [Viewing Job Details](/jobs/job-details).
+  - Drag-and-drop schedule board with per-tech columns, unassigned job queue, and mobile-friendly list view. See [Using the Schedule Board](/jobs/schedule-board) and [Drag-and-Drop Scheduling](/jobs/drag-drop-scheduling).
+  - Client management — searchable list, add/edit pages with address fields, detail page with full job history, and inline quick-add modal on job forms. See [How to Add a Client](/clients/add-client) and [Viewing Client History](/clients/client-history).
+  - Reports dashboard with KPI cards, trend charts, and date range selector. See [Understanding the Reports Dashboard](/reports/dashboard).
+  - Redesigned home page with role-based views — stat cards and quick actions for managers, "Next Up" job card for techs.
+  - Team management pages with role selector cards and active job count indicators. See [Adding and Managing Team Members](/team/manage-team).
+  - Platform admin support view — enter a tenant's workspace with a visible banner and exit button.
+  - Completion guard modal — warns of incomplete pre-visit or checklist before marking a job complete.
 
-  **Fixes**
+  **Improvements**
 
-  - Fixed team member avatar not displaying after upload
+  - Public forms (pre-visit confirmation, crew checklist, post-job feedback) now validate signed access tokens before accepting submissions. See [Pre-Visit Confirmation Forms](/forms/pre-visit-confirmation) and [Post-Job Feedback Forms](/forms/post-job-feedback).
 </Update>
 
-<Update label="June 2024" description="Version 1.0.0">
-  **Features**
-
-  - Job creation, assignment, and status lifecycle
-  - Client management with business details and service locations
-  - Team management with Owner, Manager, and Tech roles
-  - Reports dashboard with KPIs and performance charts
+<Update label="July 10, 2026" description="Version 1.0.0">
+  Initial release of NoSavvy — a field service management platform built for cleaning businesses.
 </Update>
 
