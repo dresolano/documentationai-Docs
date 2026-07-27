@@ -19,21 +19,35 @@ A Pre-Visit Confirmation Form is a client-facing form you send before a schedule
 
 Clients do not need to log in. They open the form from a secure link tied to that job.
 
+## Automatic email on job creation
+
+When you create a new job for a client with an email address on file, NoSavvy automatically sends a pre-visit confirmation email to the client.
+
+The email includes the job title, date, and time, along with a button that links directly to the pre-visit confirmation form. Email copy adjusts based on the client's account type. Commercial clients see `We have a cleaning service scheduled for [client].` Residential clients see `We have a cleaning visit scheduled for your home.`
+
+NoSavvy sends this email once per job per day to avoid duplicates. When the email goes out, the activity log records `Pre-visit confirmation email sent to client.`
+
 ## Configurable fields
 
 Use these fields to decide what clients can confirm or share before the visit.
 
 | Field | What It Collects |
 | --- | --- |
-| Confirm Appointment Time | Shows the job date and time. Client confirms or requests a reschedule. |
+| Confirm Scheduled Service Time | Shows the job date and time. Client confirms or requests a reschedule. |
 | Access Instructions | Gate codes, parking instructions, and how to enter the property. |
-| Pet Information | Whether pets will be on site during the visit. |
-| Special Requests | Any last-minute requests or things the team should know. |
-| Custom Questions | Up to 5 custom questions you define, such as `Will you be home during service?` or `Do we need to bring a ladder?` |
+| Animals on Site | Whether pets will be on site during the visit. |
+| Site Notes for Today | Any last-minute requests or things the team should know. |
+| Custom Questions | Up to 5 custom questions you define, such as `Will a site contact be available to let our crew in?` or `Do we need to bring a ladder?` |
 
 <Callout kind="info">
 
 All fields are enabled by default. Turn off any field you do not need.
+
+</Callout>
+
+<Callout kind="info">
+
+Built-in field labels automatically use residential-friendly wording when the job's client is a residential account. For example, the schedule question reads `Does this scheduled service time work for your facility?` for commercial clients and `Does this scheduled service time work for you?` for residential clients.
 
 </Callout>
 

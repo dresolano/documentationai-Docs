@@ -8,17 +8,17 @@ description: Know what emails NoSavvy sends to your team and clients, when they 
 NoSavvy sends several emails to keep your team informed. Understand what triggers each one and what the recipient sees.
 
 - **Welcome email** — sent when a new company signs up. Subject: `Welcome to NoSavvy!` Includes the company name and a sign-in link.
-- **Invitation email** — sent when you invite a new team member who does not have a NoSavvy account yet. Subject: `You've been invited to join {Company} on NoSavvy.` Includes a `Set your password` link valid for 24 hours.
-- **Existing-user notification** — sent when you invite someone who already has a NoSavvy account. Subject: `You've been added to {Company} on NoSavvy.` Includes an `Open NoSavvy` link. No password link is needed because the user already has one.
+- **Invitation email** — sent when you invite a new team member who does not have a NoSavvy account yet. Subject: `You've been invited to join {Company} on NoSavvy.` Includes a `Set your password` link valid for 24 hours. The email uses NoSavvy's branded HTML template with your company logo and colors.
+- **Existing-user notification** — sent when you invite someone who already has a NoSavvy account. Subject: `You've been added to {Company} on NoSavvy.` Includes an `Open NoSavvy` link. No password link is needed because the user already has one. The email uses NoSavvy's branded HTML template with your company logo and colors.
 - **New job assignment** — sent to team members when they are assigned to a new job. Subject: `New Job Assigned: {job title}.` Includes the job title, client name, and scheduled date.
-- **Password reset** — sent when a user requests a password reset. Subject: `Reset your NoSavvy password.` Includes a link to set a new password.
+- **Password reset** — sent when a user requests a password reset. Subject: `Reset your NoSavvy password.` Includes a link to set a new password. The email uses NoSavvy's branded HTML template with your company logo and colors.
 
 ## Emails Sent to Your Clients
 
 NoSavvy sends one automated email to clients and provides form links for manual sharing.
 
-- **Post-Job Feedback Request** — automatically sent to the client when the crew completes the job checklist. Subject: `Service Complete - Feedback?` Includes a `Share Your Feedback` button linking to the post-job feedback form. The email is signed `The {Company} Team.`
-- **Pre-Visit Confirmation** — no automated email is sent. The team manually copies the form link from the job detail page and shares it with the client by email, text, or any method they choose.
+- **Post-Job Feedback Request** — automatically sent to the client when the crew completes the job checklist. Subject: `Cleaning Complete — Share Your Feedback` for commercial clients and `Cleaning Complete — How Did We Do?` for residential clients. Includes a `Share Your Feedback` button linking to the post-job feedback form. The email greets the client by their contact name and uses commercial or residential language based on the client's account type. The email is signed `The {Company} Team.`
+- **Pre-Visit Confirmation** — automatically sent to the client when you create a new job and the client has an email address on file. The email includes the job title, date, and time, along with a button linking to the pre-visit confirmation form. The email copy adapts based on the client's account type — Commercial clients see `We have a cleaning service scheduled for [client].` and a `Confirm Service Details` button, while Residential clients see `We have a cleaning visit scheduled for your home.` and a `Confirm Visit Details` button. The email is sent once per job per day to avoid duplicates. You can still manually copy and share the form link from the job detail page if needed.
 
 ## Internal Notifications
 
