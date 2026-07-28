@@ -34,11 +34,13 @@ The main column holds the job record itself, including notes, forms, feedback, a
 
 **Job details** shows the job description and notes. This section appears only when at least one of those fields has content.
 
-**Form links** always appears and includes three forms: Pre-Visit Confirmation, Crew Checklist, and Post-Job Feedback. Each form includes **Copy Link** to copy the form URL to your clipboard and **Open Form** to open the form in a new tab. The links use signed access tokens so only people with the link can open the form. See [Sharing Forms with Clients](/forms/sharing-forms) for details.
+**Form links** appears for Owners and Managers and includes three forms: Pre-Visit Confirmation, Crew Checklist, and Post-Job Feedback. Each form includes **Copy Link** to copy the form URL to your clipboard and **Open Form** to open the form in a new tab. Techs do not see the Form Links card, the Crew Checklist card, or the Client Forms card on the job detail page. The links use signed access tokens so only people with the link can open the form. See [Sharing Forms with Clients](/forms/sharing-forms) for details.
 
 **Client feedback** appears when a client submits post-job feedback. Each feedback card shows the rating, star score, comment, date received, and whether the client wants follow-up. If a job is completed and feedback has not been submitted yet, the page shows a **Pending** placeholder.
 
 **Activity timeline** records every change made to the job. Each entry shows the date, who made the change, and what happened. You can also add notes from the timeline with **Add Note**, and if the job is not already flagged and not archived, you can mark the note as an issue at the same time.
+
+Techs also see a **Pre-Visit status badge** in the sidebar that shows whether the client has confirmed the appointment. The badge displays **Confirmed** when the client submitted the pre-visit form without a reschedule request, **Reschedule requested** when the client asked to reschedule, or **Pending** when no form activity has been recorded yet.
 
 ## Sidebar
 
@@ -56,13 +58,13 @@ The Job Value card is visible to Owners and Managers only.
 
 Owners and Managers may also see an **Edit Value** link when they can update job pricing.
 
-**Client details** shows the client name as a clickable link to the client history page, plus the client's email address, phone number, and a directions link to the service location when an address is available.
+**Client details** shows the client name — shown as a clickable link to the client history page for Owners and Managers, or as plain text for Techs — plus the client's email address, phone number, and a directions link to the service location when an address is available.
 
 ## Mobile actions
 
 <Callout kind="tip">
 
-On mobile, a field bar appears with three quick actions: **Navigate** opens directions to the service location in your maps app, **Call Client** dials the client's phone number, and **Open Checklist** opens the crew checklist form. A sticky action bar at the bottom of the screen also shows the most relevant status action: **Mark Completed**, **Resolve Issue**, or **Flag Issue**.
+On mobile, a field bar appears with four quick actions: **Navigate** opens directions to the service location in your maps app, **Checklist** opens the crew checklist form in a new tab, **View Job** opens the full job detail page, and **Call** dials the client's phone number. A sticky action bar at the bottom of the screen also shows the most relevant status action: **Mark Completed**, **Resolve Issue**, or **Flag Issue**.
 
 </Callout>
 
